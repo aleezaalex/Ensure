@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+        background: url('login1.png');
+        }
+        .signin-form{
+            width: 360px;
+            height: 450px;
+            margin: auto;
+            margin-top: 150px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+        }
+        form{
+            width: 300px;
+            margin-left: 20px;
+        }
+        form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+        }
+button{
+width: 320px;
+height: 35px;
+margin-top: 35px;
+border : none;
+background-color: rgb(23, 125, 193);
+color: aliceblue;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+
+    </style>
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="signin-form">
+        <h1>Sign in</h1>
+        <form action="" method="post">
+            <label for="username">Enter Username</label>
+            <input type="text" id="username" name="user" placeholder="username">
+            <br>
+            <label for="Password">Enter Password</label>
+            <input type="password" id="Password" name="pass" placeholder="password">
+<br>
+<button type="submit">Signin</button>
+<br>
+<br>
+<p>Not yet a Member? <a href="register.html">Register Now</a></p>
+        </form>
+    </div>
+</body>
+</html>

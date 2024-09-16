@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Health Insurance</title>
+    <style>
+        body{
+            background-color: white;
+            padding-bottom: 90px;
+        }
+        .definition{
+            display: flex;
+            margin-top: 20px;
+        }
+        .col1{
+        width: 50%;
+        padding: 110px 70px;
+        }
+        .col2{
+            width: 70%;
+        }
+        .col1 h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:50px;
+            font-weight: 100;
+            line-height: 1;
+        }
+        .col1 p{
+            font-size: 20px;
+        padding: 4px;
+        
+        }
+        .col2 img{
+            width: 100%;
+        height: 100%;
+        padding: 70px 100px;
+        }
+        .heading{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:50px;
+            font-weight: 70;
+            margin-left: 80px;
+
+        }
+        .policies{
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 30px 60px;
+        }
+        .policies h2{
+            
+            line-height: 1;
+            font-size: 30px;
+            font-weight: 70;
+            padding: 20px 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: royalblue
+
+        }
+        .policies ol li::before{
+            content: "\2022";
+    color: rgb(37,23,241);
+    font-weight: bold;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: right;
+    width: 1em;
+    margin-left: -1em;
+        }
+        .policies ol li{
+            list-style: circle;
+            
+        } 
+        .policy1,.policy2,.policy3{
+            font-size: 20px;
+            padding: 10px 2px;
+            line-height: 1.5;
+        }
+        .policies a button:hover{
+color: red;
+        }
+        .policies .condition{
+            justify-content: space-between;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="h_leftside">
+                <a href="index.html"><h3>Ensure</h3></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Insure or renew / Claim</a>
+                        <ul>
+                            <li><a href="health.html">Health Insurance</a></li>
+                            <li><a href="car.html">Car Insurance</a></li>
+                            <li><a href="home.html">Home Insurance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="h_rightside"></div>
+            <form action="">
+                <input type="text" id="search" placeholder="Enter policy name or number">
+                <button type="submit" >search</button>
+            </form>
+            </div>
+            </header>
+            <section class="definition">
+                <div class="col1">
+                    <h1>What is Health Insurance ?</h1>
+                    <br>
+                 <p>Health insurance or medical insurance is an insurance product that provides coverage for medical expenses in the event of an illness or injury. Health insurance plans safeguard your hard-earned funds from being spent on expenses related to hospitalization, medicines, consultation and more.
+                     A health insurance policy can also be viewed as an agreement between you and your health insurance company that binds them to cover you financially in case of any medical emergency.</p>
+
+                </div>
+                <div class="col2">
+                    <img src="health.png" alt="">
+                </div>
+            </section>
+
+            <h1 class="heading">Various policies offered by Ensure</h1> <br>
+            <section class="policies">
+                <div class="policy1">
+                    <h2>Individual Health Insurance</h2>
+                    <p>Under the individual health insurance policy, Proposer can be covered in the plan with the sum insured. 
+                    So, in case you are looking forward to securing yourself , where you need not share your sum insured, consider choosing an individual health insurance plan.</p>
+                   <br>
+                   <p>Some Key Features of Individual Health Insurance include : </p>
+                    <ol>
+                   <li>Cover for pre and post hospitalization</li>
+                   <li>Covers daycare procedures, extended family</li>
+                   <li>Covers ayurvedic and homeopathic treatment</li>
+                   <li>Daily cash benefit</li>
+                   </ol><br>
+                   <p class="condition">Premium:2500/month    Validity:1year</p><br>
+                <a href="health reg.html"><button>Buy policy</button></a>
+                <a href="health renewal.html"><button>Renew policy</button></a>
+                <a href=""><button>Claim</button></a>
+                </div>
+<br>
+                <div class="policy2">
+                    <h2>Family Health Insurance</h2>
+                    <p>Medical expenses do not come with any warning. It becomes important to have a robust health insurance policy.
+                       The family floater health insurance plan permits you to include multiple members of the family within the same health insurance plan with a single premium.
+                       Under this type of health insurance plan, the sum insured is shared by all the members covered in the plan. Secure the family at a feasible health insurance premium. </p>
+<br>
+<p>Some Key Features of Family Health Insurance include : </p>
+<ol>
+    <li>Cover for Dependent family members</li>
+    <li>Daycare procedures cover</li>
+    <li>Pre and post hospitalization</li>
+    <li>Convalescence benefit</li>
+</ol><br>
+<p class="condition">Premium:2700/month    Validity:2year</p><br>
+<br>
+<a href="health reg.html"><button>Buy policy</button></a>
+ <a href="health renewal.html"><button>Renew policy</button></a>
+ <a href=""><button>Claim</button></a>
+</div>
+<div class="policy3">
+    <h2>Health Insurance for senior citizens</h2>
+    <p>As a person ages, the body starts showing different signs that indicate ailments that may happen primarily because of age-related problems.
+     Hence, it becomes important to be prepared for the golden days. Health insurance for senior citizens acts as a shield in case of any such medical condition during old age and doesn't leave them in financial distress.</p>
+<br>
+<p>Some Key Features of Health Insurance for senior citizens include : </p>
+<ol>
+    <li>Shorter waiting periods for Pre-existing Diseases</li>
+    <li>Waiver of co-payment</li>
+    <li>Cumulative bonus</li>
+    <li>Free health check-up</li>
+</ol><br>
+<p class="condition">Premium:2400/month    Validity:1year</p><br>
+<a href="health reg.html"><button>Buy policy</button></a>
+ <a href="health renewal.html"><button>Renew policy</button></a>
+ <a href=""><button>Claim</button></a>
+    </div>
+      </section>
+  
+</body>
+</html>

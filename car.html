@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+body{
+            background-color: white;
+            padding-bottom: 90px;
+        }
+        .definition{
+            display: flex;
+            margin-top: 20px;
+        }
+        .col1{
+        width: 50%;
+        padding: 130px 70px;
+        }
+        .col2{
+            width: 70%;
+        }
+        .col1 h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:50px;
+            font-weight: 100;
+            line-height: 1;
+        }
+        .col1 p{
+            font-size: 20px;
+        padding: 4px;
+        
+        }
+        .col2 img{
+            width: 100%;
+        height: 100%;
+        padding: 70px 100px;
+        }
+        .heading{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:50px;
+            font-weight: 70;
+            margin-left: 80px;
+        }
+        .policies{
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 30px 60px;
+        }
+        .policies h2{
+            
+            line-height: 1;
+            font-size: 30px;
+            font-weight: 70;
+            padding: 20px 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: royalblue
+
+        }
+        .policies ol li::before{
+            content: "\2022";
+    color: rgb(37,23,241);
+    font-weight: bold;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: right;
+    width: 1em;
+    margin-left: -1em;
+        }
+        .policies ol li{
+            list-style: circle;
+            
+        } 
+        .policy1,.policy2,.policy3{
+            font-size: 20px;
+            padding: 10px 2px;
+            line-height: 1.5;
+        }
+        .policies a button:hover{
+color: red;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="h_leftside">
+                <a href="index.html"><h3>Ensure</h3></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Insure or renew / Claim</a>
+                        <ul>
+                            <li><a href="health.html">Health Insurance</a></li>
+                            <li><a href="car.html">Car Insurance</a></li>
+                            <li><a href="home.html">Home Insurance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="h_rightside"></div>
+            <form action="">
+                <input type="text" id="search" placeholder="Enter policy name or number">
+                <button type="submit" >search</button>
+            </form>
+            </div>
+            </header>
+            <section class="definition">
+                <div class="col1">
+                    <h1>What is Car Insurance ?</h1>
+                    <br>
+                 <p>Car Insurance is a contract you and your insurer enter into, to protect you from financial damages caused by unforeseeable circumstances like accidents, theft, and even natural calamities.
+                    This policy covers the damages caused to life and property of individuals, other than you, affected by an accident your car unfortunately becomes a part of. 
+                 </p>
+
+                </div>
+                <div class="col2">
+                    <img src="car.png" alt="">
+                </div>
+            </section>
+            <h1 class="heading">Various policies offered by Ensure</h1> <br>
+            
+            <section class="policies">
+                <div class="policy1">
+                    <h2>Comprehensive Car Insurance</h2>
+                    <p>This is the most complete and airtight car insurance policy you could get for your online four wheeler insurance. Apart from third-party liability, comprehensive car insurance covers own damages expenses such as burglary, explosion, flooding, water clogging and more.
+                        This is the ultimate online four wheeler insurance that gives you a holistic protection from all forms of threats, dangers and consequences.  </p>
+                   <br>
+                   <p>Some Key Features of Comprehensive Car Insurance include : </p>
+                    <ol>
+                   <li>Third party liability</li>
+                   <li>Own damage expenses</li>
+                   </ol><br>
+                   <p class="condition">Premium:2500/month    Validity:1year</p><br>
+                <a href="car reg.html"><button>Buy policy</button></a>
+                <a href="car renewal.html"><button>Renew policy</button></a>
+                <a href=""><button>Claim</button></a>
+                </div>
+<br>
+<div class="policy2">
+    <h2>Third Party Car Insurance</h2>
+    <p>This is the most basic and mandatory car insurance policy you can take for your car. When you third party car insurance, you are letting us – your insurance company – take care of all legal obligations that could arise due to an accident caused by you.
+         Your insurer will compensate for the financial losses you incur due to your accident that could be death, injury, disability, or damage to third-party life and property. </p>
+<br>
+<p>Some Key Features of Third Party Car Insurance include : </p>
+<ol>
+<li>You don’t have to pay for the damages caused for your involvement in an accident.</li>
+<li>our expenses would be taken care of by the insurance company when you experience damage, death or disability.</li>
+</ol><br>
+<p class="condition">Premium:2100/month    Validity:1year</p><br>
+
+<a href="car reg.html"><button>Buy policy</button></a>
+<a href="car renewal.html"><button>Renew policy</button></a>
+<a href=""><button>Claim</button></a>
+</div>
+</body>
+</html>

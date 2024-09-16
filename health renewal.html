@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+        background: url('login1.png');
+        }
+        .register-form{
+            width: 450px;
+            height: 900px;
+            margin: auto;
+            margin-top: 100px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+        }
+        form{
+            width: 300px;
+            margin-left: 60px;
+        }
+        form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+        }
+button{
+width: 320px;
+height: 35px;
+margin-top: 35px;
+border : none;
+background-color: rgb(23, 125, 193);
+color: aliceblue;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body><div class="register-form">
+    <h1>Register</h1>
+    <form action="" method="post">
+        <label for="pcno">Enter Policy Number </label>
+        <input type="text" id="pcno" name="pno" placeholder="policy number" required>
+        <br>
+        <label for="expdate">Enter Policy Expiry Date</label>
+        <input type="date" id="expdate" name="exd" placeholder="DD/MM/YY" required>
+        <br>
+        <label for="cdate">Enter Current Date</label>
+        <input type="date" id="cdate" name="current" placeholder="DD/MM/YY">
+        <br>
+        <label for="name">Enter  Name</label>
+        <input type="text" id="name" name="Name" placeholder="Name" required>
+        <br>
+        <label for="age">Enter Age</label>
+        <input type="number" min="18" id="age" name="Age" placeholder="age" required>
+        <br>
+        <label for="gender">Enter gender</label>
+        <input type="text" id="gender" name="gen" placeholder="gender" required>
+        <br>
+        <label for="DOB">Enter Date of birth</label>
+        <input type="date" id="DOB" name="date" placeholder="DD/MM/YY" required>
+        <br>
+        <label for="phoneno">Enter Phone number</label>
+        <input type="text" id="phoneno" name="phno" placeholder="phone number" required>
+        <br>
+        
+<a href="payment.html"><button type="submit">Submit</button></a>
+<br>
+<br>
+    </form>
+</div>
+    
+</body>
+</html>

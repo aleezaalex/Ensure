@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+        background: url('login1.png');
+        }
+        .register-form{
+            width: 450px;
+            height: 550px;
+            margin: auto;
+            margin-top: 100px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+        }
+        form{
+            width: 300px;
+            margin-left: 60px;
+        }
+        form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+        }
+button{
+width: 320px;
+height: 35px;
+margin-top: 35px;
+border : none;
+background-color: rgb(23, 125, 193);
+color: aliceblue;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.option{
+    width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+</head>
+
+<body><div class="register-form">
+    <h1>Payment Details</h1>
+    <form action="" method="post">
+        <label for="pno">Enter Policy no</label>
+        <input type="text" id="pno" name="policyno" placeholder="policy number" required>
+        <br>
+        <label for="chp">Choose Policy </label>
+        <select name="option" id="chp">
+            <option disabled="disabled" selected="selected">Choose option</option>
+        <option value="">Comprehensive Car Insurance</option>
+        <option value="">Third Party Car Insurance</option>
+        <option value="">Individual Health Insurance</option>
+        <option value="">Family Health Insurance</option>    
+        <option value="">Health Insurance for senior citizens</option>
+        <option value="">Family Health Insurance</option> 
+        <option value="">My Home Insurance </option> 
+        <option value="">Comprehensive Householder Insurance</option> 
+    
+    </select>
+        <br>
+        <label for="date">Enter Date</label>
+        <input type="date" id="date" name="dte" placeholder="DD/MM/YY" required>
+        <br>
+        <label for="payamt">Enter Payment amount</label>
+        <input type="text" id="payamt" name="pay" placeholder="payment amount" required>
+        <br>
+        <label for="chp">Choose Payment method </label>
+        <select name="option" id="paymethod">
+            <option disabled="disabled" selected="selected">Choose option</option>
+        <option value="paytm">paytm</option>
+        <option value="gpay">gpay</option>
+        </select>
+
+<a href=><button type="submit">Submit</button></a>
+<br>
+<br>
+    </form>
+</div>
+    
+</body>
+</html>

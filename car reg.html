@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+        background: url('login1.png');
+        }
+        .register-form{
+            width: 450px;
+            height: 750px;
+            margin: auto;
+            margin-top: 100px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+        }
+        form{
+            width: 300px;
+            margin-left: 60px;
+        }
+        form.category{
+            
+        }
+        form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+        }
+button{
+width: 320px;
+height: 35px;
+margin-top: 35px;
+border : none;
+background-color: rgb(23, 125, 193);
+color: aliceblue;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.category
+{
+    padding: 0px;
+}
+.category .m,.f,.o{
+    padding: 0;
+    margin-top: 20px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body><div class="register-form">
+    <h1>Register</h1>
+    <form action="" method="post">
+        <label for="cno">Enter Car Number</label>
+        <input type="text" id="cno" name="carno" placeholder="car number" required>
+        <br>
+        <label for="manf">Enter Manufacturer</label>
+        <input type="text" id="manf" name="carmanf" placeholder="manufacturer" required>
+        <br>
+        <label for="model">Enter Car Model</label>
+        <input type="text" id="model" name="carmodel" placeholder="car model" required>
+        <br>
+        <label for="fuel">Enter Fuel type</label>
+        <input type="text" id="fuel" name="carfuel" placeholder="fuel type" required>
+        <br>
+        <label for="reg">Enter Car Registration Year</label>
+        <input type="date" id="reg" name="carreg" placeholder=" car registration year" required>
+        <br>
+        <label for="fname">Enter First Name</label>
+        <input type="text" id="fname" name="fn" placeholder="first name" required>
+        <br>
+        <label for="lname">Enter Last Name</label>
+        <input type="text" id="lname" name="ln" placeholder="last name" required>
+        <br>
+        <label for="phno">Enter Phone number</label>
+        <input type="text" id="phno" name="phone" placeholder="username" required>
+        <br>
+<a href="payment.html"><button type="submit">Submit</button></a>
+<br>
+<br>
+    </form>
+</div>
+    
+</body>
+</html>
